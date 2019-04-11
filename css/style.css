@@ -4,12 +4,18 @@
 }
 
 .carousel .carousel-item img {
-    
+
     max-height: 90vh;
     min-width: auto;
-    
+
 }
 
-nav ul{
+nav ul {
     padding: 15px;
+}
+
+
+@media only screen and (max-width: 500px) {
+
+    
 }
