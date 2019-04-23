@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-.carousel .carousel-item img {
+.carousel .carousel-item img { /* Bild i image-slidern */
 
     max-height: 90vh;
     min-width: auto;
@@ -14,6 +14,9 @@ nav ul {
     padding: 15px;
 }
 
+body{
+    background-color: lightgray;
+}
 
 @media only screen and (max-width: 500px) {
 
