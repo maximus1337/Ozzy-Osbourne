@@ -18,8 +18,20 @@ body{
     background-color: lightgray;
 }
 
-
-@media only screen and (max-width: 500px) {
-
+.jumbotron{
+    
+    background-color: antiquewhite !important;
     
 }
+
+@media only screen and (max-width: 992px) {
+
+    nav > div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+}
+
