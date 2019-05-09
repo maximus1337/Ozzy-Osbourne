@@ -25,8 +25,6 @@ body {
 
 }
 
-
-
 @media only screen and (max-width: 992px) {
 
     .nav {
@@ -46,7 +44,11 @@ body {
         position: relative;
         width: 100%;
         text-align: center;
-        background-color: grey;
+        background-color: rgb(100,100,100);
+    }
+    
+    .nav li div a{
+        color: white;
     }
 
 }
